@@ -1,1 +1,12 @@
 
+<?php
+
+$char='A';
+echo 'input: '.$char.'<br>';
+$next_char=++$char;
+//  echo $next_char;
+if(strlen($next_char)>1){
+   $next_char=$next_char[0];
+}
+echo 'output: '. $next_char. "\n";
+?>
